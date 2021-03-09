@@ -1,0 +1,32 @@
+:root {
+    --border-radius: 5px;
+    --border-width: 1px;
+    --light-grey: #e2e0e0;
+    --blue: #7f6cfc;
+    --orange: #ffc877;
+    --red: #c14444;
+}
+
+
+#calc {
+    width: 50%;
+    height: 80%;
+    min-width: 300px;
+    min-height: 400px;
+    background-color: var(--light-grey);
+    margin: auto;
+    margin-top: 80px;
+    border: 2px solid var(--light-grey);
+    border-radius: var(--border-radius);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#calc h1 {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
